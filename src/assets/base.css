@@ -1,0 +1,22 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/* 3. Lazy cart drawer hide scroll */
+body {
+  overflow: hidden;
+}
+/* 4. Make It legible  */
+html {
+  font-size: 24px;
+}
